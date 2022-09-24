@@ -8,6 +8,6 @@ public class ConversorMoeda {
         double conversao = quantiaEmReal / valorDolar;
 
         System.out.println(cotacao);
-        System.out.println("R$" + quantiaEmReal + " são US$" + conversao);
+        System.out.printf("R$%.2f são US$%.2f.", quantiaEmReal, conversao);
     }
 }
